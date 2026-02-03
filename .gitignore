@@ -1,4 +1,4 @@
-# Python virtual environment
+# Virtual environment
 venv/
 .env/
 
@@ -6,5 +6,12 @@ venv/
 __pycache__/
 *.pyc
 
-# Large datasets (optional)
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets
 *.csv
+
+# OS files
+.DS_Store
+Thumbs.db
